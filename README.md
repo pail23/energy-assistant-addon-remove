@@ -21,7 +21,7 @@ Follow these steps to get the add-on installed on your system:
   
     <img width="400" src="docs/addonstore4.png">
   
-  - Copy "https://github.com/Energy Assistant-io/hassio-addon" Click -> Add
+  - Copy "https://github.com/pail23/energy-assistant-addon" Click -> Add
   
   - Find the "Energy Assistant" add-on and click it.
   - Click on the "INSTALL" button.
