@@ -1,10 +1,10 @@
-# Energy Assistant 🚘☀️
+# Energy Assistant
 
-[![Build Status](https://github.com/Energy Assistant-io/Energy Assistant/workflows/Build/badge.svg)](https://github.com/Energy Assistant-io/Energy Assistant/actions?query=workflow%3ABuild)
-[![Code Quality](https://goreportcard.com/badge/github.com/Energy Assistant-io/Energy Assistant)](https://goreportcard.com/report/github.com/Energy Assistant-io/Energy Assistant)
-[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20VS%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/Energy Assistant-io/Energy Assistant)
+[![Build Status](https://github.com/pail23/energy-assistant-backend/workflows/Build/badge.svg)](https://github.com/pail23/energy-assistant-backend/actions?query=workflow%3ABuild)
+[![Code Quality](https://goreportcard.com/badge/github.com/pail23/energy-assistant-backend)](https://goreportcard.com/report/github.com/pail23/energy-assistant-backend)
+[![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20VS%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/pail23/energy-assistant-backend)
 [![OSS hosting by cloudsmith](https://img.shields.io/badge/OSS%20hosting%20by-cloudsmith-blue?logo=cloudsmith)](https://cloudsmith.io/~Energy Assistant/packages/)
-[![Latest Version](https://img.shields.io/github/release/Energy Assistant-io/Energy Assistant.svg)](https://github.com/Energy Assistant-io/Energy Assistant/releases)
+[![Latest Version](https://img.shields.io/github/release/pail23/energy-assistant-backend.svg)](https://github.com/pail23/energy-assistant-backend/releases)
 <!-- [![Pulls from Docker Hub](https://img.shields.io/docker/pulls/andig/Energy Assistant.svg)](https://hub.docker.com/r/andig/Energy Assistant) -->
 <!-- [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=48YVXXA7BDNC2) -->
 
@@ -15,28 +15,7 @@ Energy Assistant is an extensible EV Charge Controller with PV integration imple
 ## Features
 
 - simple and clean user interface
-- wide range of supported [chargers](https://docs.Energy Assistant.io/docs/devices/chargers):
-  - ABL eMH1, Alfen (Eve), Bender (CC612/613), cFos (PowerBrain), Daheimladen, Ebee (Wallbox), Ensto (Chago Wallbox), [EVSEWifi/ smartWB](https://www.evse-wifi.de), Garo (GLB, GLB+, LS4), go-eCharger, HardyBarth (eCB1, cPH1, cPH2), Heidelberg (Energy Control), Innogy (eBox), Juice (Charger Me), KEBA/BMW, Menneckes (Amedio, Amtron Premium/Xtra, Amtron ChargeConrol), NRGkick, [openWB (includes Pro)](https://openwb.de/), Optec (Mobility One), PC Electric (includes Garo), TechniSat (Technivolt), Ubitricity (Heinz), Vestel, Wallbe, Webasto (Live), Mobile Charger Connect
-  - experimental EEBus support (PMCC)
-  - experimental OCPP support
-  - Build-your-own: Phoenix (includes ESL Walli), [EVSE DIN](https://www.evse-wifi.de/produkt-schlagwort/simple-evse-wb/)
-  - Smart-Home outlets: FritzDECT, Shelly, Tasmota, TP-Link
-- wide range of supported [meters](https://docs.Energy Assistant.io/docs/devices/meters) for grid, pv, battery and charger:
-  - ModBus: Eastron SDM, MPM3PM, ORNO WE, SBC ALE3 and many more, see <https://github.com/volkszaehler/mbmd#supported-devices> for a complete list
-  - Integrated systems: SMA Sunny Home Manager and Energy Meter, KOSTAL Smart Energy Meter (KSEM, EMxx)
-  - Sunspec-compatible inverter or home battery devices: Fronius, SMA, SolarEdge, KOSTAL, STECA, E3DC, ...
-  - and various others: Discovergy, Tesla PowerWall, LG ESS HOME, OpenEMS (FENECON)
-- [vehicle](https://docs.Energy Assistant.io/docs/devices/vehicles) integration (state of charge, remote charge, battery and preconditioning status):
-  - Audi, BMW, Citroën, Dacia, Fiat, Ford, Hyundai, Jaguar, Kia, Landrover, Mercedes, Mini, Nissan, Opel, Peugeot, Porsche, Renault, Seat, Smart, Skoda, Tesla, Volkswagen, Volvo
-  - Services: OVMS, Tronity
-  - Scooters: Niu, Silence
-- [plugins](https://docs.Energy Assistant.io/docs/reference/plugins) for integrating with any charger/ meter/ vehicle:
-  - Modbus, HTTP, MQTT, Javascript, WebSockets and shell scripts
-- status [notifications](https://docs.Energy Assistant.io/docs/reference/configuration/messaging) using [Telegram](https://telegram.org), [PushOver](https://pushover.net) and [many more](https://containrrr.dev/shoutrrr/)
-- logging using [InfluxDB](https://www.influxdata.com) and [Grafana](https://grafana.com/grafana/)
-- granular charge power control down to mA steps with supported chargers (labeled by e.g. smartWB als [OLC](https://board.evse-wifi.de/viewtopic.php?f=16&t=187))
-- REST and MQTT [APIs](https://docs.Energy Assistant.io/docs/reference/api) for integration with home automation systems
-- HomeAssistant [add-on](https://github.com/Energy Assistant-io/Energy Assistant-hassio-addon)
+- HomeAssistant [add-on](https://github.com/pail23/energy-assistant-addon)
 
 ## Getting Started
 
