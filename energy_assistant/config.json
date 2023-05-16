@@ -1,10 +1,10 @@
 {
     "name": "Energy Assistant",
     "version": "0.0.5",
-    "slug": "Energy Assistant",
-    "description": "EV Charge Controller!",
-    "url": "https://github.com/pail23/energy-assistant-backend/pkgs/container/energy-assistant-backend",
-    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "slug": "energy_assistant",
+    "description": "Energy Assistant helps you to control your energy consumption.",
+    "url": "https://github.com/pail23/energy-assistant-backend",
+    "arch": ["amd64", "i386"],
     "startup": "application",
     "panel_icon": "mdi:ev-station",
     "panel_admin": false,
@@ -14,7 +14,7 @@
     "ingress": true,
     "ingress_port": 80,
     "init": false,
-    "image": "Energy Assistant/Energy Assistant",
+    "image": "ghcr.io/pail23/energy-assistant-backend",
     "options": {
         "config_file": "/config/energy_assistant.yaml",
         "sqlite_file": "/data/energy_assistant.db"
