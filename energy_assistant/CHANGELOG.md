@@ -1,3 +1,3 @@
 # Changelog
 
-https://github.com/Energy Assistant-io/Energy Assistant/releases
+https://github.com/pail23/energy-assistant-backend/releases

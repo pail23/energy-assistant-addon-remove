@@ -6,7 +6,7 @@
     "url": "https://github.com/pail23/energy-assistant-backend",
     "arch": ["amd64", "i386"],
     "startup": "application",
-    "panel_icon": "mdi:ev-station",
+    "panel_icon": "mdi:home-lightning-bolt",
     "panel_admin": false,
     "boot": "auto",
     "legacy": true,
@@ -25,7 +25,5 @@
     },
     "host_network": true,
     "map": ["config:rw"],
-    "uart": true,
-    "webui": "http://[HOST]:[PORT:80]/",
-
+    "uart": false
 }
