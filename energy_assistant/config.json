@@ -26,6 +26,6 @@
     "host_network": true,
     "map": ["config:rw"],
     "uart": true,
-    "webui": "http://[HOST]:[PORT:80]/",
+    "webui": "http://[HOST]:[PORT:80]/"
 
 }
