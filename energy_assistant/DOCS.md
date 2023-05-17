@@ -1,6 +1,6 @@
 # Home Assistant Energy-Assistant Add-on: [Energy Assistant](https://github.com/pail23/energy-assistant-backend/pkgs/container/energy-assistant-backend)
 
-Energy Assistant is an extensible EV Charge Controller with PV integration implemented in Go.
+Energy Assistant is helping you to save energy
 
 ## Installation
 
@@ -8,10 +8,10 @@ The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
 1. Navigate to the Supervisor add-on store.
-2. Add a new add-on repository in the menu and point it tohttps://github.com/pail23/energy-assistant-backend/pkgs/container/energy-assistant-addon
+2. Add a new add-on repository in the menu and point it to https://github.com/pail23/energy-assistant-addon
 3. Search for the "Energy Assistant" add-on in the Supervisor add-on store.
 4. Install the "Energy Assistant" add-on.
-5. Add your working Energy Assistant configuration file to /config/energy_ssistant.yaml 
+5. Add your working Energy Assistant configuration file to /config/energy_assistant.yaml 
 6. Start the "Energy Assistant" add-on.
 7. Check the logs of the "Energy Assistant" to see if everything went well.
 8. Open the Web UI.
@@ -21,7 +21,7 @@ comparison to installing any other Home Assistant add-on.
 
 **Note**: _Remember to restart the add-on when the configuration is changed._
 
-Configuration is read from an Energy Assistant standard configuration file. It is currently hard coded to be found at
+Configuration is read from an Energy Assistant standard configuration file. By default it can be found at
 `/config/energy_assistant.yaml`
 in your Home Assistant installation.
 
@@ -30,11 +30,11 @@ in your Home Assistant installation.
 
 Got questions?
 
-Please [open an issue](https://github.com/pail23/energy-assistant-backend/pkgs/container/energy-assistant-backend/issues) in Github
+Please [open an issue](https://github.com/pail23/energy-assistant-backend/issues) in Github
 
 ## Authors & contributors
 
-Energy Assistant is maintained by [pail23](https://github.com/pail23/energy-assistant-backend/pkgs/container/energy-assistant-backend).
+Energy Assistant is maintained by [pail23](https://github.com/pail23/energy-assistant-backend).
 
 
 
